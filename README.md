@@ -12,3 +12,12 @@ G -> G = "4"
 G -> A = "5"
 G-> T/C = "7"
 In positions of which the refernce sequence is not G or C it will produce "0".
+
+For the RPL13A we used an R script ("Manar_rscript.r") that uploads "Manar_matrix.txt" that can be found in "". The txt file includes a list of converted and unconverted cytosines for each read in the relevent fastq file. The columns in the text file are for:
+1. Number of bp identical to the reference squence.
+2. Number of G to G
+3. Number of G to A
+4. Number of C to C
+5. Number of C to T
+6. G to A positions
+7. C to T positions
